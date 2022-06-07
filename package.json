@@ -1,0 +1,28 @@
+{
+  "name": "gamestories",
+  "version": "1.0.0",
+  "description": "test database for people playing games.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "knex": "knex",
+    "lint": "eslint .",
+    "test": "jest --watch --noStackTrace"
+  },
+  "keywords": [],
+  "author": "Jillian Eccles",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "knex": "^2.1.0",
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2",
+    "supertest": "^6.2.3"
+  }
+}
